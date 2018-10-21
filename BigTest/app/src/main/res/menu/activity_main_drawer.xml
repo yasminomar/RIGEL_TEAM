@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/launch"
+            android:icon="@drawable/ic_cast_connected_black_24dp"
+            android:title="Launch" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="History Of Earth" />
+        <item
+            android:id="@+id/nav_contin"
+            android:icon="@drawable/ic_public_black_24dp"
+            android:title="continents" />
+        <item
+            android:id="@+id/nav_forests"
+            android:icon="@drawable/ic_spa_black_24dp"
+            android:title="forests" />
+        <item
+            android:id="@+id/nav_mountains"
+            android:icon="@drawable/ic_filter_hdr_black_24dp"
+            android:title="mountains" />
+        <item
+            android:id="@+id/nav_oceans"
+            android:icon="@drawable/ic_invert_colors_black_24dp"
+            android:title="Oceans" />
+
+
+    </group>
+
+
+    <item
+        android:id="@+id/help"
+        android:title="Help">
+        <menu>
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="FAQ" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_people_black_24dp"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
